@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Maze</title>
+    <script type="text/javascript" src="index.js" defer></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="interface">
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <div class="inputs">
+        <label>
+          <span>Width</span>
+          <input type="number" id="w" value="51" />
+        </label>
+        <label>
+          <span>Height</span>
+          <input type="number" id="h" value="51" />
+        </label>
+        <label>
+          <span>Scale</span>
+          <input type="number" id="scale" value="9" />
+        </label>
+
+        <button id="btn">Generate</button>
+        <button id="btn1">Generate with animation</button>
+        <button id="btn2">Stop Generation</button>
+      </div>
+    </div>
+
+    <canvas id="canvas1" width="0" height="0"></canvas>
+    <canvas id="canvas2" width="0" height="0"></canvas>
+  </body>
+</html>
